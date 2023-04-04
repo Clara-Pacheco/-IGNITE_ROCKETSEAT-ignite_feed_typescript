@@ -5,7 +5,7 @@ import styles from './Post.module.css'
 
 import { Comment } from './Comment'
 import { Avatar } from './Avatar'
-import { useState } from 'react'
+import { ChangeEvent, FormEvent, InvalidEvent, useState } from 'react'
 
 
 // Post data structure:
@@ -51,14 +51,14 @@ export function Post({author,content,publishedAt}:PostProps) {
     addSuffix: true,
   })
 
-  function handleCreateNewComment(){
+  function handleCreateNewComment(event: FormEvent){
     event.preventDefault()
     
     setComments([...comments, newCommentText])
     setNewCommentText('')
   }
 
-  function handleNewCommentChange() {
+  function handleNewCommentChange(event: ChangeEvent<HTMLTextAreaElement>) {
     event.target.setCustomValidity('')
     setNewCommentText(event.target.value)
   }
@@ -71,7 +71,7 @@ export function Post({author,content,publishedAt}:PostProps) {
     setComments(commentsWithoutDeletedOne)
   }
 
-  function handleNewCommentInvalid() {
+  function handleNewCommentInvalid(event: InvalidEvent<HTMLTextAreaElement>) {
     event.target.setCustomValidity('Esse campo é obrigatório!')
   }
 
