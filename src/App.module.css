@@ -1,0 +1,29 @@
+.wrapper {
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+
+  display: grid;
+  grid-template-columns: 256px 1fr;
+
+  /* A primeira coluna, que é a da sidebar, terá uma
+     largura fixa de 256px, e a segunda coluna, que é 
+     o feed de conteúdo, irá se adaptar para o quanto couber
+     na tela - colocamos 1fr que é a unidade que usamos no
+     grid para dizer que algo terá um tamanho flexível.
+  
+  */
+
+  gap: 2rem;
+  align-items: flex-start;
+
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
