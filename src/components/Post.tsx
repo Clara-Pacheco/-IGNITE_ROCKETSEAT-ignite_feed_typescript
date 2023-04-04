@@ -19,10 +19,15 @@ interface Author {
   AvatarUrl: string;
 }
 
+interface Content {
+  type: 'paragraph' | 'link';
+  content: string;
+}
+
 interface PostProps {
   author: Author;
   publishedAt: Date;
-  content: string;
+  content: Content[];
 }
 
 export function Post({author,content,publishedAt}:PostProps) {
