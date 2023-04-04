@@ -1,0 +1,22 @@
+.avatarWithBorder {
+  box-sizing: initial;
+  
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+
+  border: 4px solid var(--gray-800);
+  outline: 2px solid var(--pink);
+
+  /*Como colocamos muita borda e muito outline,
+  o tamanho da imagem foi comprimido - para que a soma
+  de tudo isso de os 3rem width/height no box-sizing:border-box
+  Uma forma de resolver isso, é colocar o box-sizing: initial;
+  para o avatar.*/
+}
+
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 8px;
+}
