@@ -13,7 +13,19 @@ import { useState } from 'react'
 // publishedAt: Date
 // content: String 
 
-export function Post({author,content,publishedAt}) {
+interface Author {
+  name: string;
+  role: string;
+  AvatarUrl: string;
+}
+
+interface PostProps {
+  author: Author;
+  publishedAt: Date;
+  content: string;
+}
+
+export function Post({author,content,publishedAt}:PostProps) {
 
   const [comments, setComments] = useState([
     'Post muito bacana,hein!'
