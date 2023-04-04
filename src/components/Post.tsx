@@ -131,7 +131,7 @@ export function Post({author,content,publishedAt}:PostProps) {
         return <Comment
                  key={comment}
                  content={comment}
-                 ondeleteComment={deleteComment}
+                 onDeleteComment={deleteComment}
                 />
        })}
       </div>
