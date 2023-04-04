@@ -10,8 +10,13 @@ import { Trash, ThumbsUp } from 'phosphor-react'
 import { Avatar } from './Avatar'
 import { useState } from 'react'
 
+interface CommentProps {
+  content: string;
+  onDeleteComment: (commentToDelete:string) => void;
+}
 
-export function Comment({content, ondeleteComment}) {
+
+export function Comment({content, onDeleteComment}:CommentProps) {
 
   const [likeCount, setLikeCount] = useState(0)
 
@@ -23,7 +28,7 @@ export function Comment({content, ondeleteComment}) {
 
 
   function handleDeleteComment(){
-    ondeleteComment(content)
+    onDeleteComment(content)
   }
 
 
