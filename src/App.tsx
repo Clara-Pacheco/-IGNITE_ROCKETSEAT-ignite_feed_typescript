@@ -22,8 +22,8 @@ const posts = [
     },
     content: [
       {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
-      {type: 'link', content: 'jane.design/doctorcare'},
+      {type: 'paragraph', content: 'Mais um dia de estudos na Trilha ReactJS do programa Ignite da RocketSeat. Simplesmente mind-blowing de tão bom! 🤯🚀'},
+      {type: 'link', content: 'https://app.rocketseat.com.br/ignite/react-js-2022?&'},
       
     ],
     publishedAt: new Date('2023-03-30 19:16')
@@ -43,7 +43,22 @@ const posts = [
     ],
     publishedAt: new Date('2023-04-10 19:16')
 
-  }
+  },
+  {
+    id:1,
+    author: {
+      AvatarUrl: 'https://github.com/maykbrito.png',
+      name: 'Mayk Brito',
+      role: 'Sênior Web Dev & Instructor @Rocketseat'
+    },
+    content: [
+      {type: 'paragraph', content: 'Fala galeraa 👋'},
+      {type: 'paragraph', content: 'Confiram meu novo vídeo que te ajudará a dar o próximo passo na programação, no canal da Rocket no Youtube! 🚀'},
+      {type: 'link', content: '#flexbox'},
+      
+    ],
+    publishedAt: new Date('2023-03-30 19:16')
+  },
 
 ]
 
