@@ -23,11 +23,11 @@ Para acessar o protótipo do projeto:
 ###
 
 <div align="center">
-  <img height="350" src="src/assets/images/IginiteFeed.png"  />
+  <img height="350" src="src/assets/preview01.png"  />
 </div>
 
 <div align="center">
-  <img height="350" src="src/assets/images/IginiteFeed.png"  />
+  <img height="350" src="src/assets/preview02.png"  />
 </div>
 
 ###
@@ -37,11 +37,11 @@ Para acessar o protótipo do projeto:
 ###
 
 <div align="center">
-  <img height="350" src="src/assets/images/IgniteFeedMobile.png"  />
+  <img height="350" src="src/assets/preview03.png"  />
 </div>
 
 <div align="center">
-  <img height="350" src="src/assets/images/IgniteFeedMobile.png"  />
+  <img height="350" src="src/assets/preview04.png"  />
 </div>
 
 ###
