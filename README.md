@@ -23,11 +23,11 @@ Para acessar o protótipo do projeto:
 ###
 
 <div align="center">
-  <img height="350" src="src/assets/preview01.png"  />
+  <img height="350" src="https://github.com/Clara-Pacheco/IGNITE_ROCKETSEAT-ignite_feed_typescript/blob/main/assets/preview01.png"  />
 </div>
 
 <div align="center">
-  <img height="350" src="src/assets/preview02.png"  />
+  <img height="350" src="https://github.com/Clara-Pacheco/IGNITE_ROCKETSEAT-ignite_feed_typescript/blob/main/assets/preview02.png"  />
 </div>
 
 ###
@@ -37,11 +37,11 @@ Para acessar o protótipo do projeto:
 ###
 
 <div align="center">
-  <img height="350" src="src/assets/preview03.png"  />
+  <img height="350" src="https://github.com/Clara-Pacheco/IGNITE_ROCKETSEAT-ignite_feed_typescript/blob/main/assets/preview03.png"  />
 </div>
 
 <div align="center">
-  <img height="350" src="src/assets/preview04.png"  />
+  <img height="350" src="https://github.com/Clara-Pacheco/IGNITE_ROCKETSEAT-ignite_feed_typescript/blob/main/assets/preview04.png"  />
 </div>
 
 ###
