@@ -9,10 +9,9 @@
   outline: 2px solid var(--pink);
 
   /*Como colocamos muita borda e muito outline,
-  o tamanho da imagem foi comprimido - para que a soma
-  de tudo isso de os 3rem width/height no box-sizing:border-box
-  Uma forma de resolver isso, é colocar o box-sizing: initial;
-  para o avatar.*/
+  o tamanho da imagem foi comprimido - para que isso ocupe um espaço a mais,
+  e não esprema a imagem juntamente com os elementos adicionados, colocamos um
+  box-sizing initial.*/
 }
 
 .avatar {
