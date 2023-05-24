@@ -53,3 +53,14 @@ button {
   font-weight: 400;
   font-size: 1rem;
 }
+
+ /*
+ Por padrão, button, input and textarea não herdam a fonte do body,eles tem a sua própria
+ customização de fonte.
+ */
+
+ /*
+ 
+ 1rem = 16px por padrão. Depois o usuário pode modificar isso conforme sua necessidade.
+ 
+ */
